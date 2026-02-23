@@ -1,0 +1,20 @@
+
+// You ask a question
+//         ↓
+// Groq thinks: "Do I need to search for this?"
+//         ↓
+// YES → Groq says "call web_search with query: iphone 17 release"
+//         ↓
+// Your code runs the search via Tavily
+//         ↓
+// Search results are sent back to Groq
+//         ↓
+// Groq reads results and gives final answer
+// ```
+
+// ---
+
+// **Your `.env` file should have:**
+// ```
+// GROQ_API_KEY=your_groq_key
+// TAVILY_API_KEY=your_tavily_key
