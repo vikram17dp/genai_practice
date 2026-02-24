@@ -1,0 +1,51 @@
+{
+  "type": "excalidraw",
+  "version": 2,
+  "source": "https://marketplace.visualstudio.com/items?itemName=pomdtr.excalidraw-editor",
+  "elements": [
+    {
+      "id": "SICZydBDLR7sCqgwjWBc4",
+      "type": "text",
+      "x": 589,
+      "y": 161,
+      "width": 983.920166015625,
+      "height": 461.00000000000006,
+      "angle": 0,
+      "strokeColor": "#1e1e1e",
+      "backgroundColor": "transparent",
+      "fillStyle": "solid",
+      "strokeWidth": 4,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "groupIds": [],
+      "frameId": null,
+      "index": "a3",
+      "roundness": null,
+      "seed": 1408560601,
+      "version": 1065,
+      "versionNonce": 918457657,
+      "isDeleted": false,
+      "boundElements": null,
+      "updated": 1771926505137,
+      "link": null,
+      "locked": false,
+      "text": "steps to implment the company_wise_chatBot using RAG\n\nstages 1:\n1. we need an company wise docs -> .pdf,.txt,any_format\n2. we need to make an chunks on that docs -> load to DB\n3. generate an vector embedding based on the chunked docs\n4. then stores those embedding values in vector DB -> pincone\n\nstages 2:\n1. when the user is asking any queris(QNS) -> pass to reterival stage\n2. In retervial stage we are getting the Queries\n3. queris is passing into embedding models\n4. then sends back into an reterival satges, it will again passing into VDB's\n5. It will make an semantic search based on that one and sends back to the LLM\n\nstages 3:\n1. whatever the Indexed information we got from VDB's -> LLM will add some masala to that text\n2. later the user can see the output based on Internal Knoweldege using RAG system",
+      "fontSize": 20.48888888888889,
+      "fontFamily": 5,
+      "textAlign": "left",
+      "verticalAlign": "top",
+      "containerId": null,
+      "originalText": "steps to implment the company_wise_chatBot using RAG\n\nstages 1:\n1. we need an company wise docs -> .pdf,.txt,any_format\n2. we need to make an chunks on that docs -> load to DB\n3. generate an vector embedding based on the chunked docs\n4. then stores those embedding values in vector DB -> pincone\n\nstages 2:\n1. when the user is asking any queris(QNS) -> pass to reterival stage\n2. In retervial stage we are getting the Queries\n3. queris is passing into embedding models\n4. then sends back into an reterival satges, it will again passing into VDB's\n5. It will make an semantic search based on that one and sends back to the LLM\n\nstages 3:\n1. whatever the Indexed information we got from VDB's -> LLM will add some masala to that text\n2. later the user can see the output based on Internal Knoweldege using RAG system",
+      "autoResize": true,
+      "lineHeight": 1.25
+    }
+  ],
+  "appState": {
+    "gridSize": 20,
+    "gridStep": 5,
+    "gridModeEnabled": false,
+    "viewBackgroundColor": "#ffffff"
+  },
+  "files": {}
+}
