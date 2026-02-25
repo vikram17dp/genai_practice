@@ -9,9 +9,14 @@
     "typescript": "^5"
   },
   "dependencies": {
+    "@langchain/cohere": "^1.0.3",
     "@langchain/community": "^1.1.19",
     "@langchain/core": "^1.1.28",
+    "@langchain/pinecone": "^1.0.1",
     "@langchain/textsplitters": "^1.0.1",
+    "@pinecone-database/pinecone": "^7.1.0",
+    "cohere-ai": "^7.20.0",
+    "dotenv": "^17.3.1",
     "pdf-parse": "^1"
   }
 }
